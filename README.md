@@ -1,6 +1,6 @@
 # DAIR Consultants: website
 
-A static website for **DAIR Consultants**: bookkeeping and accounting, finance consulting, tax and compliance, and AI consulting.
+A static website for **DAIR Consultants** (Kochi, Kerala): bookkeeping and accounting, finance consulting, tax and compliance, AI consulting, and Zero to One consulting.
 
 It is plain HTML, CSS and JavaScript, with no build step, so GitHub Pages serves it as it is.
 
@@ -14,6 +14,7 @@ It is plain HTML, CSS and JavaScript, with no build step, so GitHub Pages serves
 | `finance-consulting.html` | Finance consulting |
 | `tax-compliance.html` | Tax & compliance |
 | `ai-consulting.html` | AI consulting |
+| `zero-to-one.html` | Zero to One consulting |
 | `about.html` | About |
 | `insights.html` | Insights (articles list) |
 | `gst-monthly-checklist.html`, `when-to-hire-a-cfo.html`, `investor-ready-books.html` | Articles |
@@ -24,9 +25,9 @@ It is plain HTML, CSS and JavaScript, with no build step, so GitHub Pages serves
 
 ## Before launch: things to replace
 
-- **Email and phone.** `hello@dairconsultants.com` and `+91 22 4000 0000` are placeholders. Use find-and-replace across all `.html` files (the phone also appears as `tel:+912240000000`).
+- **Email.** The site uses `dairconsultants@gmail.com`. To change it, use find-and-replace across all `.html` files. No phone number is shown; add one to the footer and `contact.html` when you have it.
 - **Photographs.** The large panels show a brand graphic until you add photos. Each panel has a comment such as `<!-- PHOTO: the DAIR team at work -->`. Put your image in `assets/img/` and replace the `<svg class="art" ...>...</svg>` inside that `<figure>` with, for example:
-  `<img src="assets/img/team.jpg" alt="The DAIR Consultants team in the Mumbai office">`
+  `<img src="assets/img/team.jpg" alt="The DAIR Consultants team in the Kochi office">`
 - **Contact form.** Without a form service, the form opens the visitor's email app with their message filled in. To receive messages directly, create a free form at [formspree.io](https://formspree.io), then set `data-endpoint="https://formspree.io/f/your-id"` on `<form id="contact-form">` in `contact.html`.
 
 ## Brand

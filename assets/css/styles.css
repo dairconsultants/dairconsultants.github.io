@@ -176,6 +176,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 /* columns of text */
 .cols { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
 .cols--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.cols--5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .cols--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 48px; }
 .cols > * { border-top: 1px solid var(--line); padding-top: 24px; display: grid; gap: 12px; align-content: start; }
 .cols p { font-size: 16px; }
@@ -300,7 +301,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 @media (max-width: 1100px) {
   :root { --gutter: 40px; }
   .nav > ul { gap: 26px; }
-  .cols { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 40px; }
+  .cols, .cols--5 { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 40px; }
   .index a { grid-template-columns: 60px 1fr 56px; }
   .index .d { display: none; }
 }
@@ -349,7 +350,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .hero__foot { margin-top: 36px; }
   .btn { width: 100%; justify-content: space-between; }
   .btn--sm { width: auto; }
-  .cols { grid-template-columns: 1fr; }
+  .cols, .cols--5 { grid-template-columns: 1fr; }
   .index a { grid-template-columns: 36px 1fr 44px; gap: 14px; padding: 24px 0; margin: 0; }
   .index a:hover { padding-left: 12px; padding-right: 12px; }
   .go { width: 44px; height: 44px; }
