@@ -1,6 +1,6 @@
 # DAIR Consultants: website
 
-A static website for **DAIR Consultants** (Kochi, Kerala): bookkeeping and accounting, finance consulting, tax and compliance, AI consulting, and Zero to One consulting.
+A static website for **DAIR Consultants** (Kochi, Kerala): bookkeeping and accounting, finance consulting, tax and compliance, AI in Finance, and Zero to One consulting.
 
 It is plain HTML, CSS and JavaScript, with no build step, so GitHub Pages serves it as it is.
 
@@ -13,7 +13,7 @@ It is plain HTML, CSS and JavaScript, with no build step, so GitHub Pages serves
 | `bookkeeping.html` | Bookkeeping & accounting |
 | `finance-consulting.html` | Finance consulting |
 | `tax-compliance.html` | Tax & compliance |
-| `ai-consulting.html` | AI consulting |
+| `ai-in-finance.html` | AI in Finance |
 | `zero-to-one.html` | Zero to One consulting |
 | `about.html` | About |
 | `insights.html` | Insights (articles list) |
@@ -21,7 +21,7 @@ It is plain HTML, CSS and JavaScript, with no build step, so GitHub Pages serves
 | `contact.html` | Contact form and details |
 | `privacy.html` | Privacy policy (have it reviewed before relying on it) |
 | `404.html` | Page not found |
-| `pricing.html`, `ai-labs.html`, `article-3-day-close.html` | Redirects from the old site's pages, so old links keep working |
+| `pricing.html`, `ai-labs.html`, `ai-consulting.html`, `article-3-day-close.html` | Redirects from old page addresses, so old links keep working |
 
 ## Before launch: things to replace
 
