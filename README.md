@@ -32,7 +32,7 @@ It is plain HTML, CSS and JavaScript, with no build step, so GitHub Pages serves
 
 ## Brand
 
-- Wordmark: "DAIR Consultants" in Nunito, DAIR in `#12372a`, Consultants in `#f2a93b` (DAIR switches to linen on the dark footer).
+- Logo: `assets/img/logo-dair.svg` (stacked, header), `logo-dair-light.svg` (footer, on evergreen), `logo-dair-line-light.svg` (one-line, large footer). The DC mark is `logo-dc.svg`, used for the favicon and app icon.
 - Text: Poppins. Colours: evergreen `#12372A`, linen `#FAF6EE`, marigold `#F2A93B`, sage `#E3EBE4`.
 - Everything is defined at the top of `assets/css/styles.css`.
 
@@ -42,6 +42,6 @@ It is plain HTML, CSS and JavaScript, with no build step, so GitHub Pages serves
 *.html            pages
 assets/css/       styles.css
 assets/js/        main.js (menu, header, contact form)
-assets/fonts/     Poppins and Nunito (SIL Open Font License)
+assets/fonts/     Poppins (SIL Open Font License)
 assets/img/       favicon, touch icon, social share image
 ```
